@@ -2,8 +2,13 @@
 module.exports = {
   content: ["*"],
     theme: {
-    extend: {fontFamily: {
-      mulish: ["Mulish", "sans-serif"],
+    extend: {
+      fontFamily: {mulish: ["Mulish", "sans-serif"],
+    },
+    screens: {
+      'sm' : {'max' : '450px'},
+      'md' : {'max' : '768px'},
+      'lg' : {'max' : '1140px'},
     },
     colors: {
       deepBlue: "#02042a",
